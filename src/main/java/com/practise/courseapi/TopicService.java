@@ -8,12 +8,10 @@ import java.util.Optional;
 
 @Service
 public class TopicService {
-
+    //blah blah
     @Autowired
     private TopicRepository topicRepository;
 
-//    private List<Topic> topics = new ArrayList<>(Arrays.asList(
-//            new Topic("Spring", "Spring Framework", "Spring Framework Description")));
 
     public List<Topic> getAllTopics() {
         List<Topic> topics = topicRepository.findAll();
